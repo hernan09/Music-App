@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./index.css";
 import Card from "../Card/card";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
+
 
 function DeezerSearch() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -49,9 +48,6 @@ function DeezerSearch() {
           onChange={(e) => setSearchQuery(e.target.value)}
           className="search-input"
         />
-        <button className="search-button">
-          <FontAwesomeIcon icon={faSearch} />
-        </button>
       </div>
 
       {searchResults.length > 0 ? ( // Comprobar si hay resultados de búsqueda
