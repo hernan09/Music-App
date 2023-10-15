@@ -1,0 +1,29 @@
+/* Estilos para el componente de AudioPlayer */
+
+.audio-player-container {
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.title-album {
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 278px;
+  margin: auto;
+  opacity: 0.8;
+}
+
+.album-image img {
+  max-width: 300px;
+  max-height: 300px;
+  margin: 10px auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.card-preview-2 {
+  
+}
+
+/* Estilos adicionales según tus preferencias */
